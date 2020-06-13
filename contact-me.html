@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Contact Details</title>
-    <style media="screen">
 
+<head>
+  <meta charset="utf-8">
+  <title>Contact Details</title>
+  <style media="screen">
     body {
       background-color: powderblue;
     }
 
     h1 {
       color: green;
-       text-align: left;
+      text-align: left;
     }
 
     hr {
-    border-style: none;
-    border-top-style:dotted;
+      border-style: none;
+      border-top-style: dotted;
       border-color: grey;
       border-width: 5px;
       width: 10%;
 
     }
-      </style>
-  </head>
-  <body>
+
+    p {
+      color: brown;
+      font-size: 20px;
+    }
+
+    .btn_submit {
+      background-color: purple;
+      border: none;
+      color: white;
+      padding: 10px 48px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      border-radius: 30px;
+
+      }
+
+      .btn_submit1 {
+padding-top: 20px;
+        background-color: purple;
+        border: none;
+        color: white;
+        padding: 10px 48px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 30px;
+        padding-bottom: 20px;
+
+}
+  </style>
+</head>
+
+<body>
   <h1 style="color:green;">My Contact Details</h1>
-    <hr>
+  <hr>
   <p>BLOCK 211 Jurong East Street 21 <br>
-  #02-309 Singapore 600211 <br>
-Mobile No.88454587 <br>
-Email-ahmad_razu@yahoo.com
-</p>
-<hr>
+    #02-309 Singapore 600211 <br>
+    Mobile No.88454587 <br>
+    Email-ahmad_razu@yahoo.com
+  </p>
+  <hr>
 
-<form action="mailto:ahmad_razu@yahoo.com" method="post" enctype="text/plain">
-<label>Your Name:</label>
-<input type="text" name="YourName" value=""> <br>
-<label>Your Email:</label>
-<input type="email" name="YourEmail" value=""> <br>
-<label for="myfile">Select Files</label>
-<input type="file" name="myfile multiple" value="">
-<br>
-<label>Your Message</label>  <br>
-<textarea name="YourMessage" rows="10" cols="30"></textarea><br>
-<input type="submit" name="">
-</form>
+  <form action="mailto:ahmad_razu@yahoo.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input  type="text" name="YourName" value=""> <br>
+    <label>Your Email:</label>
+    <input  type="email" name="YourEmail" value=""> <br>
+    <label for="myfile">Select Files</label>
+    <input type="file" name="myfile multiple" value="">
+    <br>
+    <label>Your Message</label> <br>
+    <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" class="btn_submit">
+  </form>
 
-  </body>
+</body>
+
 </html>
